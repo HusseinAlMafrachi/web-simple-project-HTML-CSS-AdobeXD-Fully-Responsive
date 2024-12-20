@@ -10,4 +10,7 @@ understanding of the development and design cycle principles, while honing my UI
 
 - Additionally, I utilized Adobe XD to plan and design the layout and user flow, ensuring a clear and 
 user-centered structure before development.
+- Check images/p3-1 for AdobeXD design templates
+- go to https://test-project-ed510.web.app/ to view the project
+- reach out to me at almafrachi.hussein@gmail.com if you have any questions. Thank you! 
 >>>>>>> 1daf0cc (Resolved merge conflicts)
