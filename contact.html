@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesContact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('view');
+            });
+        });  
+    </script>
+    <link rel="icon" href="images/HomePage-image.jpg" />
+    <title>Contact Page | Simple Project Template</title>
+</head>
+
+<body>
+    <div class="logotop">
+        <img class="logo" src="images/Logo-Ipsum.png" alt="">
+        <div class="social">
+            <a href=""><img src="images/YouTube-icon.png"></a>
+            <a href=""><img src="images/Instagram-icon.png"></a>
+            <a href=""><img src="images/facebook-icon.png"></a>
+        </div>
+    </div>
+    <div class="nav-triangle">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" ">About</a></li>
+            <li><a href=" services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="" class="link>">Contact</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fa fa-bars"></i>
+            </label>
+        </nav>
+    </div>
+    <div class="home">
+        <div class="home-layout-add">
+            <div class="add1">
+                <a href=""><img class="add-img1" src="images/ads.png" alt=""></a>
+                <span class="add-text1">Masterclass From Beginner to Pro</span>
+
+            </div>
+        </div>
+        <div class="home-layout4">
+            <div class="contact-us">
+                <h1 class="contact-title">contact us</h1>
+            </div>
+            <div class="container1">
+
+                <form action="#" id="contactForm">
+                    <div class="form">
+                        <label class="name" for="">full name: </label>
+                        <input type="text" class="form-input" id="name" placeholder="" />
+                    </div>
+
+                    <div class="form">
+                        <label class="name" for="">Email: </label>
+                        <input type="email" class="form-input" id="emailid" placeholder="" />
+                    </div>
+
+                    <div class="form">
+                        <label class="name" for="">Please specify the reason for your contact.</label>
+                        <textarea id="msgContent" class="form-input" cols="30" rows="10"
+                            placeholder="  Message"></textarea>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-Communicate">
+                <div class="contact-div">
+                    <h1 class="title">Location</h1>
+                    <p class="contact-text">Ohio/Dayton</p>
+                </div>
+                <div class="Communicate-div">
+                    <h1 class="title">Communicate</h1>
+                    <p class="contact-text">email@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="blog-row">
+        <div class="line"></div>
+        <div class="text-blog">
+            <h1>You might also like:</h1>
+        </div>
+        <div class="blog">
+
+            <h1 class="container">Lorem ipsum dolor sit amet</h1>
+            <a href="#"><img class="blog-img-link" src="images/blog1.jpg"></a>
+        </div>
+
+        <div class="blog">
+            <h1 class="container">Lorem ipsum dolor sit amet</h1>
+
+            <a href="#"><img class="blog-img-link" src="images/blog2.jpg"></a>
+        </div>
+        <div class="blog blog-hide">
+            <h1 class="container">Lorem ipsum dolor sit amet</h1>
+
+            <a href="#"><img class="blog-img-link" src="images/blog3.jpg"></a>
+        </div>
+    </div>
+    <div class="home-layout5">
+        <div class="nav-subscribe">
+            <form action="#">
+                <label class="nav-label" for="">SUBSCRIBE TO OUR NEWSLETTER:</label>
+                <input class="nav-input" type="text" id="" name="" value="Email@">
+                <input class="nav-btn" type="submit" value="SUBSCRIBE" />
+            </form>
+        </div>
+        <div class="nav-all">
+            <div class="nav">
+
+                <span class="content"><strong>NAVIGATION</strong></span>
+                <a href="index.html"><span class="content">Home</span></a>
+                <a href="about.html"><span class="content">About</span></a>
+                <a href="services.html"><span class="content">Services</span></a>
+                <a href="blog.html"><span class="content">Blog</span></a>
+                <a href="#"><span class="content">Contact</span></a>
+            </div>
+            <div class="nav">
+                <span class="content"><strong>ABOUT</strong></span>
+                <a href="about.html"><span class="content">Who We Are?</span></a>
+                <a href="about.html"><span class="content">Company's Mission</span></a>
+            </div>
+            <div class="nav">
+                <span class="content"><strong>CONTACT US</strong></span>
+                <a href="#"><span class="content">Our Online Form</span></a>
+                <a href="#"><span class="content">Email</span></a>
+                <a href="#"><span class="content">Phone Number</span></a>
+
+            </div>
+            <div class="nav-social">
+                <a href="#"><img src="images/YouTube-icon.png"></a>
+                <a href="#"><img src="images/Instagram-icon.png"></a>
+                <a href="#"><img src="images/facebook-icon.png"></a>
+            </div>
+            <div class="nav-logo">
+
+                <img class="nav-logo-img" src="images/Logo-Ipsum.png" alt="">
+                <span class="nav-text"><strong>Copyright © 2023</strong></span>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
